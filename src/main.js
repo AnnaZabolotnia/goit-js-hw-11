@@ -1,12 +1,14 @@
-import './js/pixabay-api.js';
-import './js/render-functions.js';
+import iziToast from 'izitoast';
+import 'izitoast/dist/css/iziToast.min.css';
 
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
-import 'nprogress/nprogress.css';
 import { fetchImages, GALLERY_LINK } from './js/pixabay-api.js';
 import { createGallery } from './js/render-functions.js';
+
+import './js/pixabay-api.js';
+import './js/render-functions.js';
 
 const galleryContainer = document.querySelector('.gallery');
 const searchForm = document.querySelector('.search-form');
@@ -55,7 +57,6 @@ searchForm.addEventListener('submit', function (event) {
     })
     .catch(error => {
       console.error('Error fetching images:', error);
-
       iziToast.error({
         title: 'Error',
         message: 'Error fetching images. Please try again.',

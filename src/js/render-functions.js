@@ -1,7 +1,4 @@
-import SimpleLightbox from 'simplelightbox';
-import 'simplelightbox/dist/simple-lightbox.min.css';
-
-import { fetchImages, GALLERY_LINK } from './pixabay-api';
+import { GALLERY_LINK } from './pixabay-api';
 
 export function createGallery({
   largeImageURL,
