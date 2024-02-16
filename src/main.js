@@ -5,8 +5,8 @@ import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
 import 'nprogress/nprogress.css';
-import { fetchImages, GALLERY_LINK } from './js/pixabay-api';
-import { createGallery } from './js/render-functions';
+import { fetchImages, GALLERY_LINK } from './js/pixabay-api.js';
+import { createGallery } from './js/render-functions.js';
 
 const galleryContainer = document.querySelector('.gallery');
 const searchForm = document.querySelector('.search-form');

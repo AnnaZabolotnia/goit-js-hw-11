@@ -107,21 +107,21 @@ ul {
 }
 
 button {
-  color: #2f4f4f;
+  color: #f8f9f9;
   height: 40px;
   padding: 8px 16px;
   border: 1px solid #000000;
   border-radius: 8px;
   font-weight: 500;
   letter-spacing: 0.64px;
-  background-color: #9acd32;
+  background-color: #4950c5;
   display: inline-block;
   font-size: medium;
   transition: 300ms;
 }
 
 button:hover {
-  background-color: #90ee90;
+  background-color: #a090ee;
   transform: scale(1.05);
 }
 
